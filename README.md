@@ -2,9 +2,12 @@
 Un RPG horror esoterico per Android (Termux) con Kivy.
 
 ## Installazione
-1. Installa Termux.
+1. Installa Termux da F-Droid o Play Store.
 2. Abilita il repository X11:
-3. pkg update && pkg upgrade -y
+
+
+
+   pkg update && pkg upgrade -y
    pkg install x11-repo -y
 
 
@@ -33,14 +36,12 @@ Un RPG horror esoterico per Android (Termux) con Kivy.
 
 
 ## Comandi
-- Usa i pulsanti per muoverti e interagire.
+- Usa i pulsanti "Su", "Giù", "Sinistra", "Destra" per muoverti.
+- "Tarocchi", "Ouija", "Craft" per interagire.
+
+## Caratteristiche
+- Labirinto grafico.
+- Combattimenti, tarocchi, Ouija, alchimia.
+- Incontro con Baphomet.
 
 
-Push su GitHub:
-
-bash
-
-
-git add main.py requirements.txt README.md
-git commit -m "Fixed SDL2 installation issues and updated README for Termux"
-git push origin main
