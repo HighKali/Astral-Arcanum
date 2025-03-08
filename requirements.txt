@@ -1,2 +1,1 @@
-tweepy==4.10.0
-sqlite3
+kivy==2.3.0
